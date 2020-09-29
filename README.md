@@ -246,7 +246,8 @@ To create the jar:
 
 `mvn clean package`
 
-Provide to Lenses:
+Follow the docs(https://docs.lenses.io/4.0/configuration/sql/kubernetes/#custom-serde)
+ and provide to Lenses:
 ```
    target/lenses-serde-protobuf-example-1.0.0.jar
    deps/avro-protobuf-1.8.2.jar
