@@ -16,7 +16,7 @@
         <protobuf.version>3.4.0</protobuf.version>
         <build-helper-maven-plugin.version>1.9.1</build-helper-maven-plugin.version>
         <maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
-        <avro.version>1.8.2</avro.version>
+        <avro.version>1.9.2</avro.version>
     </properties>
 
     <repositories>
