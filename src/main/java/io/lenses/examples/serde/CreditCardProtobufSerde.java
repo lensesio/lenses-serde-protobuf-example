@@ -14,7 +14,7 @@ import java.util.Properties;
 
 public class CreditCardProtobufSerde implements Serde {
 
-    private Schema fieldBSchema = SchemaBuilder.builder().record("field_b").fields().requiredString("x").endRecord()
+    private Schema fieldBSchema = SchemaBuilder.builder().record("field_b").fields().requiredString("x").endRecord();
 
     private Schema schema = SchemaBuilder.builder()
             .record("credit_card")
