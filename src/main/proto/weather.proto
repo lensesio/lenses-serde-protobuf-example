@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "io.lenses.data.generator.domain.weather";
+option java_package = "io.lenses.examples.serde.protobuf.generated";
 
 message Wind {
     int32 chill = 1;
